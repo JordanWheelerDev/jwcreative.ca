@@ -76,7 +76,7 @@ const sendMessageButton = document.getElementById('sendMessage');
         };
 
         // Send the data to the backend endpoint using fetch API
-        fetch('http://localhost:3000/send-email', {
+        fetch('https://api.jwcreative.ca/send-email/send-mail', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
